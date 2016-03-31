@@ -1,7 +1,7 @@
 name: BlockCmdPE
 main: Vaivez66\BlockCmdPE\BlockCmd
 version: 1.0.0
-api: 1.12.0
+api: [1.12.0, 2.0.0]
 load: POSTWORLD
 authors: [Vaivez66]
 description: "Block some commands!"
