@@ -1,7 +1,7 @@
 
-# Message that will send if player execute blocked cmd
+# Message that will be sent if player execute blocked cmd
 block.message: '{RED}That action was blocked'
-# Commands that will blocked
+# Commands that will be blocked
 block.cmd:
   - '/me is the owner'
   - '/me f*ck you steve'
