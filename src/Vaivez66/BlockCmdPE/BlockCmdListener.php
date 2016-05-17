@@ -19,6 +19,9 @@ class BlockCmdListener implements Listener{
     public function onCmd(PlayerCommandPreprocessEvent $event){
         $p = $event->getPlayer();
         $msg = $event->getMessage();
+        if(!in_array($p->getLevel()->getName(), $this->plugin->getAllLevels())){
+            return;
+        }
         if($p->hasPermission('block.cmd.pe.bypass')){
             return;
         }
