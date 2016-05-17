@@ -28,8 +28,16 @@ class BlockCmd extends PluginBase{
      * @return array
      */
 
+    public function getAllLevels(){
+        return (array) $this->cfg->get('active.levels');
+    }
+
+    /**
+     * @return array
+     */
+
     public function getCmd(){
-        return (array)$this->cfg->get('block.cmd');
+        return (array) $this->cfg->get('block.cmd');
     }
 
     /**
